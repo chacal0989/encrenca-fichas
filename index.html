@@ -82,7 +82,12 @@
   <datalist id="lista-racas"></datalist>
   <datalist id="lista-classes"></datalist>
 
-  <script src="https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@3.1.0/dist/obr.min.js"></script>
-  <script src="app.js"></script>
+ <script type="module">
+  import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@3.1.0/+esm";
+
+  window.OBR = OBR;
+
+  import("./app.js");
+</script>
 </body>
 </html>
