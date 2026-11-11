@@ -4,11 +4,11 @@
   "manifest_version": 1,
   "description": "Fichas do RPG de Bolso Encrenca!: cada jogador edita a sua e o mestre vê todas.",
   "author": "Mesa do Encrenca!",
-  "icon": "icon.svg",
+  "icon": "https://chacal0989.github.io/encrenca-fichas/icon.svg",
   "action": {
     "title": "Fichas do Encrenca!",
     "icon": "icon.svg",
-    "popover": "index.html",
+    "popover": "https://chacal0989.github.io/encrenca-fichas/index.html",
     "width": 440,
     "height": 660
   }
